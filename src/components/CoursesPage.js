@@ -4,7 +4,13 @@ import CourseList from "./CourseList";
 
 function CoursesPage() {
   const [courses, setCourses] = useState([
-    { id: 1, title: "testTitle", authorId: 1, category: "testCategory" },
+    {
+      id: 1,
+      title: "testTitle",
+      authorId: 1,
+      category: "testCategory",
+      slug: "test-slug",
+    },
   ]);
 
   useEffect(() => {
